@@ -1,0 +1,366 @@
+.hero {
+  color: #1b1b1b;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 174px;
+}
+
+.hero__h1 {
+  margin: 0;
+  padding: 0;
+  width: 701px;
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 135%;
+  /* or 74px */
+
+  /* white */
+
+  color: #ffffff;
+}
+
+.hero__small {
+  margin: 0;
+  padding: 0;
+  width: 148;
+  margin-top: 109px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  /* grey */
+
+  color: #8a8a8a;
+}
+
+.hero__text {
+  margin: 0;
+  padding: 0;
+  width: 598px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  display: flex;
+  align-items: center;
+
+  /* grey */
+
+  color: #8a8a8a;
+}
+
+.hero__img {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 20px;
+  top: 60px;
+  width: 544px;
+  height: 513px;
+}
+
+.hero__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.hero__button {
+  background-color: #1b1b1b;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 39px;
+}
+
+.hero__button3 {
+  display: none;
+}
+
+.hero__button:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px;
+    margin-top: 86px;
+  }
+
+  .hero__img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    width: 414;
+  }
+
+  .hero__small {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+
+  .hero__h1 {
+    margin: 0;
+    padding: 0;
+    width: 456px;
+    font-family: "STIX Two Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 135%;
+    /* or 65px */
+
+    /* white */
+
+    color: #ffffff;
+  }
+
+  .hero__text {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    margin-top: 14px;
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+
+    /* grey */
+
+    color: #8a8a8a;
+  }
+
+  .hero__img {
+    width: 414px;
+    height: 391px;
+  }
+
+  .hero__button3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+    margin-top: 50px;
+  }
+
+  .hero__small {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero__h1 {
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    font-family: "STIX Two Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 135%;
+    /* or 59px */
+
+    /* white */
+
+    color: #ffffff;
+  }
+
+  .hero__text {
+    margin: 0;
+    padding: 0;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    width: 394px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+
+    /* grey */
+
+    color: #8a8a8a;
+  }
+
+  .hero__img {
+    width: 270px;
+    height: 255px;
+    position: relative;
+    left: -15px;
+  }
+
+  .hero__button3 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero {
+    margin-top: 67px;
+    margin-bottom: 80px;
+    &__l {
+      text-align: center;
+    }
+    &__buttons {
+      display: block;
+      text-align: center;
+    }
+    &__button:first-child {
+      display: none;
+    }
+    &__button:last-child {
+      display: inline;
+      margin-left: 20px;
+    }
+    &__button3 {
+      margin-right: 80px;
+      display: inline-block;
+      background-color: #1b1b1b;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    &__h1 {
+      width: 340px;
+      margin: 0;
+      padding: 0;
+      margin: 0 auto;
+      font-family: "STIX Two Text";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 135%;
+      /* or 59px */
+
+      text-align: center;
+
+      /* white */
+
+      color: #ffffff;
+    }
+    &__text {
+      width: 300px;
+      margin: 0;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      /* or 26px */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      /* grey */
+
+      color: #8a8a8a;
+    }
+  }
+
+  .hero__small {
+    display: inline;
+    text-align: center;
+  }
+  .hero__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .hero {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    &__l {
+      text-align: center;
+      width: 320px;
+    }
+    &__buttons {
+      display: block;
+      text-align: center;
+    }
+    &__button:first-child {
+      display: none;
+    }
+    &__button:last-child {
+      display: inline;
+      margin-left: 20px;
+    }
+    &__button3 {
+      margin-right: 80px;
+      display: inline-block;
+      background-color: #1b1b1b;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    &__h1 {
+      margin: 0;
+      padding: 0;
+      font-family: "STIX Two Text";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 135%;
+      /* or 46px */
+
+      text-align: center;
+
+      /* white */
+
+      color: #ffffff;
+      position: relative;
+      left: -10px;
+    }
+    &__text {
+      margin: 0 auto;
+      padding: 0;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160%;
+      /* or 22px */
+
+      text-align: center;
+
+      /* grey */
+
+      color: #8a8a8a;
+    }
+  }
+}
